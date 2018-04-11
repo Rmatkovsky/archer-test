@@ -18,7 +18,7 @@ define( function () {
             };
 
             for ( var key in value ) {
-                if ( hasOwnProperty.call( value, key ) ) {
+                if ( hasOwnProperty.call( value, key ) ) { // выходить из цикла ретурном - дурной тон
                     return false;
                 };
             };
@@ -43,9 +43,10 @@ define( function () {
             thouSeparator = thouSeparator == undefined ? "," : thouSeparator;
             var sign = number < 0 ? "-" : "",
 
-            i = parseInt(number = Math.abs(+number || 0).toFixed(decPlaces)) + "",
+            i = parseInt(number = Math.abs(+number || 0).toFixed(decPlaces)) + "", // строку перевели в число и потом опять привели к строке?.. ну такое..
             j = (j = i.length) > 3 ? j % 3 : 0;
             return sign + (j ? i.substr(0, j) + thouSeparator : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thouSeparator) + (decPlaces ? decSeparator + Math.abs(number - i).toFixed(decPlaces).slice(2) : "");
+                    // дико непонятная строка, что это вообще было???
         };
 
         // create new cookie
@@ -85,7 +86,7 @@ define( function () {
             for( i=0; i<ca.length; i++ ) {
                 c = ca[i].trim();
                 if ( c.indexOf(name) === 0 ) {
-                    return c.substring( name.length, c.length );
+                    return c.substring( name.length, c.length );// выходить из цикла ретурном - дурной тон
                 };
             };
             return "";

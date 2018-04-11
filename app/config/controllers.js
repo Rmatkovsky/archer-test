@@ -7,3 +7,5 @@ define( function ( require ) {
         require( 'config/controllers/miscs' )( app );
     };
 });
+
+        // контроллеров немного, они бы и здесь нормально смотрелись, зачем выносить?..

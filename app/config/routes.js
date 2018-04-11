@@ -9,3 +9,4 @@ define( function ( require ) {
         require( './routes/static' )( $stateProvider );
   }];
 });
+// не вижу смысла выносить роуты в отдельный файл, тут им самое место

@@ -29,7 +29,7 @@ define( function () {
                         resultWithOutValue = true;
                     };
                 };
-                return !resultWithOutValue;
+                return !resultWithOutValue; // resultWithOutValue изначально андефайнед, если в цикле условие не выполнится, то вернется !андефайнед, т.е. тру, итого эта ф-ция всегда выводит тру
             };
 
             /**

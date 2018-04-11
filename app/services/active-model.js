@@ -44,7 +44,9 @@ define( function () {
             };
             return fullUrl;
         };
-
+                // очень громоздкие валидаторы!
+                // и еще, если на вход придет объект, то objectValue.toString() вернет "[object Object]" и вся валидация рушится
+                // 
         // check model on validation
         isValidModel = function ( scope, newModel, exeptFieldArray ) {
             var checkPresents, checkMinLength, checkMaxLength, checkPatternMatch,
@@ -92,13 +94,13 @@ define( function () {
                 var result  = false;
 
                 if ( !exeptFieldArray || ( exeptFieldArray && !exeptFieldArray.length )) {
-                    return result = false;
+                    return result = false; // грубо
                 };
 
                 exeptFieldArray.some(
                     function ( field ) {
                         if ( fieldName == field ) {
-                            return result = true;
+                            return result = true; // грубо
                         };
                     }
                 );
@@ -126,7 +128,7 @@ define( function () {
 
             promise.then(
                 function ( data )  {
-                    scope.data = that.models = angular.fromJson( data.items );
+                    scope.data = that.models = angular.fromJson( data.items );// почему не жсон парсе/стрингифай?..
                 },
                 function ( error ) {
                       scope.alerts.push( {  type: 'danger', msg: error.data.message } );
