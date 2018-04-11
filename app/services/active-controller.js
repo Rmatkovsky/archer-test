@@ -18,7 +18,7 @@ define( function () {
                 activeController.currentUserModel = currentUserModel;
 
                 // injects models and services
-                var injectModels = function () {
+                var injectModels = function () {// избыточно, переменная не нужна
                     var model                = {};
                     model.currentUserModel   = currentUserModel;
                     model.settingsModel      = settingsModel;
