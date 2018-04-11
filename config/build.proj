@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildProjectDirectory)\common.proj"/>
+  
+  <Target Name="Build" DependsOnTargets="Install">
+    <PropertyGroup>
+      <Command>gulp build --env=$(Configuration)</Command>
+    </PropertyGroup>
+    
+    <Message Text="$(Command)"/>
+    <Exec Command="$(Command)" WorkingDirectory="$(SourceBase)" ContinueOnError="false"/>
+  </Target>
+  
+  <Target Name="Install">
+    <PropertyGroup>
+      <Command>npm install</Command>
+    </PropertyGroup>
+  
+    <Message Text="$(Command)"/>
+  <Exec Command="$(Command)" WorkingDirectory="$(SourceBase)" ContinueOnError="false"/>
+  </Target>
+  
+</Project>
+ 

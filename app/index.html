@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Environment: dev -->
+<html data-ng-app="app">
+    <head>
+        <base href="/">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <title>Archer test</title>
+
+        <link rel="stylesheet" href="/assets/styles/index.css">
+
+</head>
+    <body data-ng-controller="MainController" data-ng-cloak="">
+        <a ui-sref="welcome">Main</a>
+        <br>
+        <hr>
+        Select your role
+        <select data-ng-model="selectedRole">
+          <option value="{{option.id}}" data-ng-repeat="option in data.roles.data">{{option.name}}</option>
+        </select>
+        <br>
+        and choose one of link
+        <a ui-sref="deliveries">Deliveries</a>
+        <a ui-sref="billings">Billings</a>
+        <a ui-sref="couriers">Couriers</a>
+        <div class="wrapper" ui-view="" data-ng-if="isLoaded"></div>
+
+        <script data-main="/index.js" src="/vendors/require.js"></script>
+    </body>
+</html>

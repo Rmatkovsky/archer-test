@@ -1,0 +1,153 @@
+{
+  "items": [{
+    "id": 1,
+    "name": "miconazole nitrate",
+    "date": "12/8/2017",
+    "color": "Yellow"
+  }, {
+    "id": 2,
+    "name": "Belladonna Alkaloids with Phenobartbital",
+    "date": "2/13/2018",
+    "color": "Aquamarine"
+  }, {
+    "id": 3,
+    "name": "Nitrogen",
+    "date": "5/1/2017",
+    "color": "Crimson"
+  }, {
+    "id": 4,
+    "name": "Aloe socotrina, Chamomilla, Cinchona officinalis, Colocynthis, Croton tiglium, Cuprum arsenicosum, Gelsemium sempervirens, Ipecacuanha, Nux vomica, Phosphoricum acidum, Podophyllum peltatum, veratrum album",
+    "date": "10/2/2017",
+    "color": "Blue"
+  }, {
+    "id": 5,
+    "name": "methylphenidate hydrochloride",
+    "date": "10/24/2017",
+    "color": "Crimson"
+  }, {
+    "id": 6,
+    "name": "Levothyroxine Sodium",
+    "date": "8/1/2017",
+    "color": "Violet"
+  }, {
+    "id": 7,
+    "name": "Topical Cut and Wound Relief",
+    "date": "12/20/2017",
+    "color": "Puce"
+  }, {
+    "id": 8,
+    "name": "Zinc Oxide",
+    "date": "9/30/2017",
+    "color": "Aquamarine"
+  }, {
+    "id": 9,
+    "name": "Levisticum Quercus",
+    "date": "3/27/2018",
+    "color": "Orange"
+  }, {
+    "id": 10,
+    "name": "nortriptyline hydrochloride",
+    "date": "4/22/2017",
+    "color": "Yellow"
+  }, {
+    "id": 11,
+    "name": "Sodium Fluoride",
+    "date": "4/21/2017",
+    "color": "Orange"
+  }, {
+    "id": 12,
+    "name": "Chlorhexidine gluconate",
+    "date": "3/16/2018",
+    "color": "Mauv"
+  }, {
+    "id": 13,
+    "name": "MENTHOL",
+    "date": "9/15/2017",
+    "color": "Crimson"
+  }, {
+    "id": 14,
+    "name": "DIMETHICONE",
+    "date": "5/18/2017",
+    "color": "Red"
+  }, {
+    "id": 15,
+    "name": "Avobenzone, Homosalate, Octisalate, Octocrylene, Oxybenzone",
+    "date": "5/22/2017",
+    "color": "Indigo"
+  }, {
+    "id": 16,
+    "name": "Caffeine",
+    "date": "3/29/2018",
+    "color": "Aquamarine"
+  }, {
+    "id": 17,
+    "name": "BENZOCAINE",
+    "date": "10/15/2017",
+    "color": "Violet"
+  }, {
+    "id": 18,
+    "name": "Sodium Iodide I 123",
+    "date": "11/27/2017",
+    "color": "Puce"
+  }, {
+    "id": 19,
+    "name": "HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE, AND AVOBENZONE",
+    "date": "1/14/2018",
+    "color": "Fuscia"
+  }, {
+    "id": 20,
+    "name": "nitroglycerin",
+    "date": "12/31/2017",
+    "color": "Purple"
+  }, {
+    "id": 21,
+    "name": "Trazodone Hydrochloride",
+    "date": "10/21/2017",
+    "color": "Red"
+  }, {
+    "id": 22,
+    "name": "cevimeline hydrochloride",
+    "date": "8/19/2017",
+    "color": "Puce"
+  }, {
+    "id": 23,
+    "name": "Octinoxate, Oxybenzone, Titanium Dioxide",
+    "date": "10/19/2017",
+    "color": "Goldenrod"
+  }, {
+    "id": 24,
+    "name": "Olanzapine",
+    "date": "12/31/2017",
+    "color": "Red"
+  }, {
+    "id": 25,
+    "name": "aliskiren hemifumarate and hydrochlorothiazide",
+    "date": "4/18/2017",
+    "color": "Goldenrod"
+  }, {
+    "id": 26,
+    "name": "ALUMINUM SESQUICHLOROHYDRATE",
+    "date": "6/5/2017",
+    "color": "Orange"
+  }, {
+    "id": 27,
+    "name": "Capsicum Oleoresin",
+    "date": "6/1/2017",
+    "color": "Goldenrod"
+  }, {
+    "id": 28,
+    "name": "Digoxin",
+    "date": "8/1/2017",
+    "color": "Green"
+  }, {
+    "id": 29,
+    "name": "Treatment Set TS345049",
+    "date": "5/28/2017",
+    "color": "Khaki"
+  }, {
+    "id": 30,
+    "name": "ISOPROPYL ALCOHOL",
+    "date": "10/5/2017",
+    "color": "Green"
+  }]
+}

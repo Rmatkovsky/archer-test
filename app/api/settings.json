@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "application_version": "1.0.0",
+      "application_name": "Archer test",
+      "application_author": "Matkovsky Ruslan",
+      "email": "matkovsky.ruslan@gmail.com",
+      "github_url": "http://"
+    }
+  ]
+}

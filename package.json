@@ -1,0 +1,38 @@
+{
+  "name": "wespons",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gulp configuration for development automation and build",
+  "devDependencies": {
+    "connect-history-api-fallback": "latest",
+    "es6-shim": "latest",
+    "gulp": "latest",
+    "gulp-angular-htmlify": "latest",
+    "gulp-angular-templatecache": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-csso": "latest",
+    "gulp-if": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-open": "latest",
+    "gulp-plumber": "latest",
+    "gulp-preprocess": "latest",
+    "gulp-protractor": "latest",
+    "gulp-protractor-qa": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-util": "latest",
+    "gulp-webserver": "^0.9.1",
+    "portscanner": "latest",
+    "protractor": "latest",
+    "requirejs": "latest",
+    "yargs": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Morozov, Nikolay Savenko, Vitaliy Vasilchenko",
+  "license": "MIT"
+}
